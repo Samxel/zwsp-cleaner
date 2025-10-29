@@ -14,7 +14,7 @@ Hello​World
 
 ```
 
-It looks normal — but if you move the cursor between the words, there’s an invisible character.  
+It looks normal - but if you move the cursor between the words, there’s an invisible character.  
 After cleaning, it becomes:
 
 ```
