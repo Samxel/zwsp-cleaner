@@ -44,11 +44,10 @@ This project provides:
 [Tampermonkey](https://www.tampermonkey.net/) installed in your browser.
 
 **Steps:**
-1. Open Tampermonkey dashboard → **Create a new script**
-2. Paste the contents of [`zwsp-cleaner.user.js`](./zwsp-cleaner.user.js)
-3. Save and enable the script
-4. Visit any website and copy some text — zero-width characters will be removed automatically
-
+1. Click [this link](https://github.com/Samxel/zwsp-cleaner/raw/main/zwsp-cleaner.user.js) to open the userscript directly in Tampermonkey  
+   – or open the Tampermonkey dashboard → **Create a new script** and paste the contents of [`zwsp-cleaner.user.js`](./zwsp-cleaner.user.js)
+2. Save and enable the script
+3. Visit any website and copy some text - zero-width characters will be removed automatically
 ---
 
 ### 2. Browser Extension
@@ -82,6 +81,3 @@ Both the userscript and the extension remove these Unicode characters:
 | U+FEFF     | Zero Width No-Break Space (BOM)     |
 
 They run a simple regular expression on every copied text and overwrite the clipboard content with the cleaned version.
-
-```
-```
