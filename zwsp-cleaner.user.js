@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Remove Zero Width Characters on Copy
-// @namespace    https://github.com/Samxel
+// @namespace    https://github.com/Samxel/zwsp-cleaner
 // @version      2025-10-29
 // @description  Automatically removes zero-width spaces and similar invisible characters when copying text from websites.
 // @author       Samxel
