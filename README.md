@@ -29,7 +29,10 @@ HelloWorld
 
 Go to [this page](https://www.soscisurvey.de/tools/view-chars.php),  
 paste any text that might contain invisible characters, and click **“Show me the characters.”**  
-You’ll see if any hidden Unicode symbols (like `U+200B`) are present.
+You’ll see if any hidden Unicode symbols (like `U+200B` or `ZWSP`) are present.
+
+*Note: You can safely ignore standard whitespace symbols such as `CR`, `LF`, or `TAB` -  
+these are normal line breaks and indentation characters, not invisible zero-width characters.*
 
 ---
 
@@ -54,9 +57,9 @@ This project provides:
 
 **Steps:**
 1. Click [this link](https://github.com/Samxel/zwsp-cleaner/raw/main/zwsp-cleaner.user.js) to open the userscript directly in Tampermonkey  
-   – or open the Tampermonkey dashboard → **Create a new script** and paste the contents of [`zwsp-cleaner.user.js`](./zwsp-cleaner.user.js)
+   - or open the Tampermonkey dashboard → **Create a new script** and paste the contents of [`zwsp-cleaner.user.js`](./zwsp-cleaner.user.js)
 2. Save and enable the script  
-3. Visit any website and copy some text — zero-width characters will be removed automatically
+3. Visit any website and copy some text → zero-width characters will be removed automatically
 
 ---
 
