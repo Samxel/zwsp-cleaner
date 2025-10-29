@@ -86,11 +86,11 @@ A Chromium-based browser (Chrome, Edge, Brave) or Firefox.
 
 Both the userscript and the extension remove these Unicode characters:
 
-| Character | Unicode | Description |
-|------------|----------|-------------|
-| `U+200B` | Zero Width Space | |
-| `U+200C` | Zero Width Non-Joiner | |
-| `U+200D` | Zero Width Joiner | |
-| `U+FEFF` | Zero Width No-Break Space (BOM) | |
+| Unicode | Description |
+|----------|-------------|
+| U+200B | Zero Width Space |
+| U+200C | Zero Width Non-Joiner |
+| U+200D | Zero Width Joiner |
+| U+FEFF | Zero Width No-Break Space (BOM) |
 
 They run a simple regular expression on every copied text and overwrite the clipboard content with the cleaned version.
