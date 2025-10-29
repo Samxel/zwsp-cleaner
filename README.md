@@ -81,6 +81,3 @@ Both the userscript and the extension remove these Unicode characters:
 | U+FEFF     | Zero Width No-Break Space (BOM)     |
 
 They run a simple regular expression on every copied text and overwrite the clipboard content with the cleaned version.
-
-```
-```
